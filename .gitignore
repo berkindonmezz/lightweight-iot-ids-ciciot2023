@@ -1,0 +1,30 @@
+# Python & Sanal Ortam
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Büyük Veri Dosyaları (ASLA GitHub'a yükleme)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.zip
+
+# Büyük Eğitilmiş Modeller (İstenirse sadece küçük final .onnx hariç tutulabilir)
+models/
+*.joblib
+*.pkl
+
+# Sonuçlardaki büyük geçici çıktılar dışındaki raporlar takip edilsin
+!results/**/*.csv
+!results/**/*.json
+!results/**/*.png
+!results/**/*.md
+
+# IDE / Sistem
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
