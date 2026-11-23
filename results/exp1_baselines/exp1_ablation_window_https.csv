@@ -1,0 +1,4 @@
+regime,n_features,bin_def_f1_macro,bin_tuned_thr,bin_tuned_f1_macro,bin_tuned_fpr,bin_tuned_recall,bin_roc_auc,bin_pr_auc,mc8_f1_macro,mc8_f1_weighted,mc8_ovr_roc,bin_top5_gain
+A0_All_39_WithWindowArtifact,39,0.88285,0.05,0.91717,0.08074,0.99356,0.998,0.99995,0.64774,0.78441,0.97644,"Number(0.96), Max(0.01), Min(0.01), HTTPS(0.00), syn_count(0.00)"
+A1_Clean_33_WindowIndependent,33,0.87847,0.05,0.91465,0.07839,0.99318,0.99785,0.99995,0.64406,0.7825,0.97585,"HTTPS(0.78), Time_To_Live(0.06), AVG(0.06), ack_flag_number(0.03), IAT(0.02)"
+A2_Clean_32_NoHTTPS,32,0.87481,0.05,0.91172,0.07814,0.99282,0.99742,0.99992,0.63638,0.77551,0.97565,"IAT(0.90), Rate(0.03), ack_flag_number(0.02), HTTP(0.02), fin_flag_number(0.01)"

@@ -1,0 +1,28 @@
+model,role,operating_point,locked_threshold,scenario,n_benign,n_attack,realized_fpr_%,fp_per_10k_normal,realized_precision,realized_recall,realized_f1_attack,fp,avg_tp,avg_fn
+top15_l0_baseline,Referans (Budanmamis),Target_FPR_0.5%,0.738315,100%_Normal_0%_Attack,37104,0,0.7115,71.15,,,,264,0.0,0.0
+top15_l0_baseline,Referans (Budanmamis),Target_FPR_0.5%,0.738315,99%_Normal_1%_Attack,37104,375,0.7115,71.15,0.58397,0.98818,0.73411,264,370.6,4.4
+top15_l0_baseline,Referans (Budanmamis),Target_FPR_0.5%,0.738315,95%_Normal_5%_Attack,37104,1953,0.7115,71.15,0.87951,0.98674,0.93004,264,1927.1,25.9
+top15_l0_baseline,Referans (Budanmamis),Target_FPR_0.2%,0.84289,100%_Normal_0%_Attack,37104,0,0.248,24.8,,,,92,0.0,0.0
+top15_l0_baseline,Referans (Budanmamis),Target_FPR_0.2%,0.84289,99%_Normal_1%_Attack,37104,375,0.248,24.8,0.80079,0.98622,0.88388,92,369.8,5.2
+top15_l0_baseline,Referans (Budanmamis),Target_FPR_0.2%,0.84289,95%_Normal_5%_Attack,37104,1953,0.248,24.8,0.95437,0.98519,0.96953,92,1924.1,28.9
+top15_l0_baseline,Referans (Budanmamis),Target_FPR_0.1%,0.88668,100%_Normal_0%_Attack,37104,0,0.1455,14.55,,,,54,0.0,0.0
+top15_l0_baseline,Referans (Budanmamis),Target_FPR_0.1%,0.88668,99%_Normal_1%_Attack,37104,375,0.1455,14.55,0.8725,0.98542,0.92552,54,369.5,5.5
+top15_l0_baseline,Referans (Budanmamis),Target_FPR_0.1%,0.88668,95%_Normal_5%_Attack,37104,1953,0.1455,14.55,0.97268,0.98443,0.97852,54,1922.6,30.4
+top15_l1_balanced,Ana Onerilen Model,Target_FPR_0.5%,0.718811,100%_Normal_0%_Attack,37104,0,0.4474,44.74,,,,166,0.0,0.0
+top15_l1_balanced,Ana Onerilen Model,Target_FPR_0.5%,0.718811,99%_Normal_1%_Attack,37104,375,0.4474,44.74,0.69031,0.98676,0.81233,166,370.0,5.0
+top15_l1_balanced,Ana Onerilen Model,Target_FPR_0.5%,0.718811,95%_Normal_5%_Attack,37104,1953,0.4474,44.74,0.92059,0.98541,0.9519,166,1924.5,28.5
+top15_l1_balanced,Ana Onerilen Model,Target_FPR_0.2%,0.857909,100%_Normal_0%_Attack,37104,0,0.1752,17.52,,,,65,0.0,0.0
+top15_l1_balanced,Ana Onerilen Model,Target_FPR_0.2%,0.857909,99%_Normal_1%_Attack,37104,375,0.1752,17.52,0.85039,0.98524,0.91286,65,369.5,5.5
+top15_l1_balanced,Ana Onerilen Model,Target_FPR_0.2%,0.857909,95%_Normal_5%_Attack,37104,1953,0.1752,17.52,0.96728,0.98401,0.97557,65,1921.8,31.2
+top15_l1_balanced,Ana Onerilen Model,Target_FPR_0.1%,0.915133,100%_Normal_0%_Attack,37104,0,0.1105,11.05,,,,41,0.0,0.0
+top15_l1_balanced,Ana Onerilen Model,Target_FPR_0.1%,0.915133,99%_Normal_1%_Attack,37104,375,0.1105,11.05,0.90004,0.98444,0.94035,41,369.2,5.8
+top15_l1_balanced,Ana Onerilen Model,Target_FPR_0.1%,0.915133,95%_Normal_5%_Attack,37104,1953,0.1105,11.05,0.97909,0.983,0.98104,41,1919.8,33.2
+top10_l2_light,Ultra-Hafif Alternatif,Target_FPR_0.5%,0.722452,100%_Normal_0%_Attack,37104,0,0.4231,42.31,,,,157,0.0,0.0
+top10_l2_light,Ultra-Hafif Alternatif,Target_FPR_0.5%,0.722452,99%_Normal_1%_Attack,37104,375,0.4231,42.31,0.70176,0.98516,0.81965,157,369.4,5.6
+top10_l2_light,Ultra-Hafif Alternatif,Target_FPR_0.5%,0.722452,95%_Normal_5%_Attack,37104,1953,0.4231,42.31,0.92447,0.98391,0.95326,157,1921.6,31.4
+top10_l2_light,Ultra-Hafif Alternatif,Target_FPR_0.2%,0.891319,100%_Normal_0%_Attack,37104,0,0.1455,14.55,,,,54,0.0,0.0
+top10_l2_light,Ultra-Hafif Alternatif,Target_FPR_0.2%,0.891319,99%_Normal_1%_Attack,37104,375,0.1455,14.55,0.87208,0.98178,0.92368,54,368.2,6.8
+top10_l2_light,Ultra-Hafif Alternatif,Target_FPR_0.2%,0.891319,95%_Normal_5%_Attack,37104,1953,0.1455,14.55,0.97256,0.98005,0.97629,54,1914.0,39.0
+top10_l2_light,Ultra-Hafif Alternatif,Target_FPR_0.1%,0.945341,100%_Normal_0%_Attack,37104,0,0.1024,10.24,,,,38,0.0,0.0
+top10_l2_light,Ultra-Hafif Alternatif,Target_FPR_0.1%,0.945341,99%_Normal_1%_Attack,37104,375,0.1024,10.24,0.90622,0.9792,0.94129,38,367.2,7.8
+top10_l2_light,Ultra-Hafif Alternatif,Target_FPR_0.1%,0.945341,95%_Normal_5%_Attack,37104,1953,0.1024,10.24,0.98047,0.97704,0.97875,38,1908.2,44.8

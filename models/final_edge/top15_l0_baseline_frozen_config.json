@@ -1,0 +1,73 @@
+{
+  "tag": "top15_l0_baseline",
+  "role": "Referans (Budanmamis)",
+  "checkpoint": "Top15",
+  "tier": "L0_Baseline",
+  "features": [
+    "HTTPS",
+    "AVG",
+    "IAT",
+    "Header_Length",
+    "ack_flag_number",
+    "Max",
+    "syn_flag_number",
+    "Time_To_Live",
+    "Min",
+    "psh_flag_number",
+    "rst_flag_number",
+    "fin_flag_number",
+    "Std",
+    "HTTP",
+    "ARP"
+  ],
+  "medians_float32": [
+    0.0,
+    60.0,
+    4.451036511454731e-05,
+    20.0,
+    0.0,
+    60.0,
+    0.0,
+    64.0,
+    60.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "hyperparams": {
+    "n_estimators": 150,
+    "num_leaves": 63,
+    "max_depth": -1,
+    "learning_rate": 0.05
+  },
+  "thresholds_locked_from_m07": {
+    "target_fpr_0.5%": 0.738315,
+    "target_fpr_0.2%": 0.84289,
+    "target_fpr_0.1%": 0.88668
+  },
+  "artifacts": {
+    "onnx": {
+      "file": "top15_l0_baseline.onnx",
+      "size_kb": 673.58,
+      "sha256": "ff154e17c8e1e20ddf8963e4db9a6c723e326892df1165b6d81a10d5fc68b7ec"
+    },
+    "c_source": {
+      "file": "top15_l0_baseline_model.c",
+      "size_kb": 2174.17,
+      "sha256": "eab5f76c71eff9553c203f745e7aba38391dcee2cb2267e7a942809c541998b5"
+    },
+    "c_dll": {
+      "file": "top15_l0_baseline.dll",
+      "size_kb": 487.38,
+      "sha256": "c5b1d146e549314e52632f8738f4d0acd99d76ef5df7b3a6f3a1f0659f90e1a4"
+    },
+    "c_bench_exe": {
+      "file": "top15_l0_baseline_bench.exe",
+      "size_kb": 508.0,
+      "sha256": "b540046f9b803b2ceb740288511b618dcc336b7b536e1eb9c027bee0defc4438"
+    }
+  }
+}

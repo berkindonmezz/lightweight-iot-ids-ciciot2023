@@ -1,0 +1,4 @@
+model,role,sklearn_ram_mb,onnx_ram_mb,c_native_peak_ram_mb,ram_reduction_vs_sklearn_x,sklearn_p50_us,onnx_p50_us,c_native_p50_us,speedup_c_vs_sklearn_x,speedup_c_vs_onnx_x,onnx_size_kb,c_dll_size_kb,c_throughput_pps
+top15_l0_baseline,Referans (Budanmamis),157.543,54.09,4.156,37.9,1796.4,102.8,0.5,3592.8,205.6,673.58,487.38,1260910.0
+top15_l1_balanced,Ana Onerilen Model,155.227,52.172,3.871,40.1,1764.5,85.6,0.2,8822.5,428.0,174.97,191.58,4645415.4
+top10_l2_light,Ultra-Hafif Alternatif,154.586,52.133,3.75,41.2,1675.3,78.3,0.1,16753.0,783.0,52.63,101.7,17398566.1

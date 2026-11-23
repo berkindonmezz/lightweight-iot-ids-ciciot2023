@@ -1,0 +1,26 @@
+{
+  "evaluated_at_utc": "2026-11-23T00:56:41.885633+00:00",
+  "locked_test_files": [
+    "Merged09.csv",
+    "Merged10.csv"
+  ],
+  "total_test_rows": 1595072,
+  "total_benign_rows": 37104,
+  "total_attack_rows": 1557968,
+  "frozen_models": [
+    "top15_l0_baseline",
+    "top15_l1_balanced",
+    "top10_l2_light"
+  ],
+  "hardware": {
+    "os": "Windows-10-10.0.19045-SP0",
+    "machine": "AMD64",
+    "logical_cpu_count": 8,
+    "total_ram_gb": 15.87,
+    "python_version": "3.11.4",
+    "numpy_version": "2.4.6",
+    "pandas_version": "3.1.1",
+    "sklearn_version": "1.9.1",
+    "lightgbm_version": "4.7.0"
+  }
+}

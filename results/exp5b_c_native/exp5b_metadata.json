@@ -1,0 +1,20 @@
+{
+  "is_quick": false,
+  "gcc_version": "gcc (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 16.2.0",
+  "candidates": [
+    "top15_l0_baseline",
+    "top15_l1_balanced",
+    "top10_l2_light"
+  ],
+  "hardware": {
+    "os": "Windows-10-10.0.19045-SP0",
+    "machine": "AMD64",
+    "logical_cpu_count": 8,
+    "total_ram_gb": 15.87,
+    "python_version": "3.11.4",
+    "numpy_version": "2.4.6",
+    "pandas_version": "3.1.1",
+    "sklearn_version": "1.9.1",
+    "lightgbm_version": "4.7.0"
+  }
+}

@@ -1,0 +1,4 @@
+tag,role,n_features,n_trees,total_leaves,compile_sec,c_source_kb,dll_size_kb,exe_size_kb,roc_auc,fpr01_real_%,fpr01_rec_%,fpr01_live99_p,fpr01_live99_f1,max_prob_diff_vs_lgb,mean_prob_diff_vs_lgb,pred_agree_vs_lgb_%,max_prob_diff_vs_exp5_onnx,c_rss_cur_mb,c_rss_peak_mb,c_lat_p50_us,c_lat_p95_us,c_lat_p99_us,c_lat_p50_ms,c_throughput_pps
+top15_l0_baseline,Referans (Budanmamis),15,150,9450,13.57,2174.17,487.38,508.0,0.99808,0.091,98.441,0.91596,0.94918,0.0,0.0,100.0,0.001052,4.152,4.156,0.5,3.0,5.0,0.0005,1260910.0
+top15_l1_balanced,Ana Onerilen Model,15,80,2480,8.13,422.81,191.58,212.19,0.99782,0.091,98.307,0.91582,0.94825,0.0,0.0,100.0,0.0215342,3.867,3.871,0.2,0.7,1.2,0.0002,4645415.4
+top10_l2_light,Ultra-Hafif Alternatif,10,50,750,4.43,114.85,101.7,123.31,0.99719,0.061,97.752,0.94194,0.95932,0.0,0.0,100.0,0.0291325,3.746,3.75,0.1,0.2,0.4,0.0001,17398566.1

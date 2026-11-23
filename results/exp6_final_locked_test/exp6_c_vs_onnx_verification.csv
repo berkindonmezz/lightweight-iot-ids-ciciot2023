@@ -1,0 +1,10 @@
+model,operating_point,c_fpr_%,onnx_fpr_%,c_recall_%,onnx_recall_%,c_vs_onnx_agree_%,max_prob_diff
+top15_l0_baseline,Target_FPR_0.5%,0.712,0.712,98.657,98.657,100.0,0.035987
+top15_l0_baseline,Target_FPR_0.2%,0.248,0.248,98.493,98.493,100.0,0.035987
+top15_l0_baseline,Target_FPR_0.1%,0.146,0.146,98.408,98.408,100.0,0.035987
+top15_l1_balanced,Target_FPR_0.5%,0.447,0.447,98.52,98.52,100.0,0.069997
+top15_l1_balanced,Target_FPR_0.2%,0.175,0.175,98.366,98.366,100.0,0.069997
+top15_l1_balanced,Target_FPR_0.1%,0.111,0.111,98.274,98.274,100.0,0.069997
+top10_l2_light,Target_FPR_0.5%,0.423,0.423,98.367,98.367,100.0,0.005807
+top10_l2_light,Target_FPR_0.2%,0.146,0.146,97.994,97.994,100.0,0.005807
+top10_l2_light,Target_FPR_0.1%,0.102,0.102,97.707,97.707,100.0,0.005807

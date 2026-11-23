@@ -1,0 +1,33 @@
+model,class_name,precision,recall,f1_score,support
+Logistic Regression,Benign,0.75323,0.52688,0.62004,16163
+Logistic Regression,BruteForce,0.02162,0.36788,0.04084,193
+Logistic Regression,DDoS,0.95586,0.63952,0.76633,507653
+Logistic Regression,DoS,0.36558,0.85825,0.51275,121047
+Logistic Regression,Mirai,0.98866,0.98919,0.98892,39400
+Logistic Regression,Recon,0.47108,0.45988,0.46541,10183
+Logistic Regression,Spoofing,0.4256,0.50748,0.46295,7220
+Logistic Regression,Web,0.02314,0.38244,0.04365,353
+Decision Tree,Benign,0.75044,0.74528,0.74785,16163
+Decision Tree,BruteForce,0.12648,0.1658,0.1435,193
+Decision Tree,DDoS,0.89809,0.81614,0.85516,507653
+Decision Tree,DoS,0.44375,0.61261,0.51468,121047
+Decision Tree,Mirai,0.99543,0.99454,0.99499,39400
+Decision Tree,Recon,0.62645,0.63223,0.62933,10183
+Decision Tree,Spoofing,0.8051,0.82729,0.81604,7220
+Decision Tree,Web,0.10319,0.11898,0.11053,353
+Random Forest,Benign,0.77236,0.87094,0.81869,16163
+Random Forest,BruteForce,0.5814,0.12953,0.21186,193
+Random Forest,DDoS,0.95778,0.72796,0.8272,507653
+Random Forest,DoS,0.43202,0.86346,0.5759,121047
+Random Forest,Mirai,0.99698,0.99678,0.99688,39400
+Random Forest,Recon,0.73007,0.72857,0.72932,10183
+Random Forest,Spoofing,0.92755,0.84044,0.88185,7220
+Random Forest,Web,0.53947,0.11615,0.19114,353
+LightGBM,Benign,0.84198,0.80437,0.82274,16163
+LightGBM,BruteForce,0.12798,0.3057,0.18043,193
+LightGBM,DDoS,0.96747,0.70375,0.8148,507653
+LightGBM,DoS,0.42065,0.89949,0.57322,121047
+LightGBM,Mirai,0.99554,0.9968,0.99617,39400
+LightGBM,Recon,0.71697,0.74654,0.73145,10183
+LightGBM,Spoofing,0.90186,0.86427,0.88266,7220
+LightGBM,Web,0.0973,0.33711,0.15102,353

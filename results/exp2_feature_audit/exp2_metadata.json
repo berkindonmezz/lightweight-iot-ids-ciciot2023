@@ -1,0 +1,64 @@
+{
+  "is_quick": false,
+  "train_rows": 708703,
+  "val_rows": 702212,
+  "std_sq_vs_variance_corr": 1.0,
+  "dropped_window_artifacts": [
+    "Number",
+    "Tot sum",
+    "ack_count",
+    "syn_count",
+    "fin_count",
+    "rst_count"
+  ],
+  "dropped_exact_duplicates": [
+    "Tot size",
+    "IPv",
+    "LLC"
+  ],
+  "dropped_negligible_features": [
+    "cwr_flag_number",
+    "Telnet",
+    "SMTP",
+    "IRC",
+    "IGMP"
+  ],
+  "retained_pruned_features": [
+    "Header_Length",
+    "Protocol Type",
+    "Time_To_Live",
+    "Rate",
+    "fin_flag_number",
+    "syn_flag_number",
+    "rst_flag_number",
+    "psh_flag_number",
+    "ack_flag_number",
+    "ece_flag_number",
+    "HTTP",
+    "HTTPS",
+    "DNS",
+    "SSH",
+    "TCP",
+    "UDP",
+    "DHCP",
+    "ARP",
+    "ICMP",
+    "Min",
+    "Max",
+    "AVG",
+    "Std",
+    "IAT",
+    "Variance"
+  ],
+  "hardware": {
+    "os": "Windows-10-10.0.19045-SP0",
+    "machine": "AMD64",
+    "logical_cpu_count": 8,
+    "total_ram_gb": 15.87,
+    "python_version": "3.11.4",
+    "numpy_version": "2.4.6",
+    "pandas_version": "3.1.1",
+    "sklearn_version": "1.9.1",
+    "lightgbm_version": "4.7.0"
+  }
+}

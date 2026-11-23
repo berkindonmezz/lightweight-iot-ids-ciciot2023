@@ -1,0 +1,63 @@
+{
+  "tag": "top10_l2_light",
+  "role": "Ultra-Hafif Alternatif",
+  "checkpoint": "Top10",
+  "tier": "L2_Light",
+  "features": [
+    "HTTPS",
+    "AVG",
+    "IAT",
+    "Header_Length",
+    "ack_flag_number",
+    "Max",
+    "syn_flag_number",
+    "Time_To_Live",
+    "Min",
+    "psh_flag_number"
+  ],
+  "medians_float32": [
+    0.0,
+    60.0,
+    4.451036511454731e-05,
+    20.0,
+    0.0,
+    60.0,
+    0.0,
+    64.0,
+    60.0,
+    0.0
+  ],
+  "hyperparams": {
+    "n_estimators": 50,
+    "num_leaves": 15,
+    "max_depth": 6,
+    "learning_rate": 0.08
+  },
+  "thresholds_locked_from_m07": {
+    "target_fpr_0.5%": 0.722452,
+    "target_fpr_0.2%": 0.891319,
+    "target_fpr_0.1%": 0.945341
+  },
+  "artifacts": {
+    "onnx": {
+      "file": "top10_l2_light.onnx",
+      "size_kb": 52.63,
+      "sha256": "ef0fce9c1c5d6d8825996d70671e5d0b900787a81d70ec5868e15cb93d117a5d"
+    },
+    "c_source": {
+      "file": "top10_l2_light_model.c",
+      "size_kb": 114.85,
+      "sha256": "38d13950eff73287e5350338bc15e39d530dfaba3b1a490198ccd6f8f6c1eea1"
+    },
+    "c_dll": {
+      "file": "top10_l2_light.dll",
+      "size_kb": 101.7,
+      "sha256": "b4bc45d134334bb12caee0129e8920efc0fdaa9fd58db2ed8a407c40da75ef07"
+    },
+    "c_bench_exe": {
+      "file": "top10_l2_light_bench.exe",
+      "size_kb": 123.31,
+      "sha256": "601b1bc5ecf0654d62ea8fd4aaab3fa48c7e5f0f28b60f1767ccee87ef5e3c06"
+    }
+  }
+}

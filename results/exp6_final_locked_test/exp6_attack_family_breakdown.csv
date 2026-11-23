@@ -1,0 +1,49 @@
+model,operating_point,category,support,correct_or_detected,fp_or_missed,rate_%,metric_type
+top15_l0_baseline,Target_FPR_0.2%,Benign,37104,37012,92,99.752,Benign Specificity (1 - FPR)
+top15_l0_baseline,Target_FPR_0.2%,BruteForce,466,54,412,11.588,Attack Recall
+top15_l0_baseline,Target_FPR_0.2%,DDoS,1152851,1152593,258,99.978,Attack Recall
+top15_l0_baseline,Target_FPR_0.2%,DoS,274173,274099,74,99.973,Attack Recall
+top15_l0_baseline,Target_FPR_0.2%,Mirai,89359,89308,51,99.943,Attack Recall
+top15_l0_baseline,Target_FPR_0.2%,Recon,23641,6174,17467,26.116,Attack Recall
+top15_l0_baseline,Target_FPR_0.2%,Spoofing,16596,12184,4412,73.415,Attack Recall
+top15_l0_baseline,Target_FPR_0.2%,Web,882,71,811,8.05,Attack Recall
+top15_l0_baseline,Target_FPR_0.1%,Benign,37104,37050,54,99.854,Benign Specificity (1 - FPR)
+top15_l0_baseline,Target_FPR_0.1%,BruteForce,466,41,425,8.798,Attack Recall
+top15_l0_baseline,Target_FPR_0.1%,DDoS,1152851,1152490,361,99.969,Attack Recall
+top15_l0_baseline,Target_FPR_0.1%,DoS,274173,274072,101,99.963,Attack Recall
+top15_l0_baseline,Target_FPR_0.1%,Mirai,89359,89301,58,99.935,Attack Recall
+top15_l0_baseline,Target_FPR_0.1%,Recon,23641,5677,17964,24.013,Attack Recall
+top15_l0_baseline,Target_FPR_0.1%,Spoofing,16596,11539,5057,69.529,Attack Recall
+top15_l0_baseline,Target_FPR_0.1%,Web,882,49,833,5.556,Attack Recall
+top15_l1_balanced,Target_FPR_0.2%,Benign,37104,37039,65,99.825,Benign Specificity (1 - FPR)
+top15_l1_balanced,Target_FPR_0.2%,BruteForce,466,49,417,10.515,Attack Recall
+top15_l1_balanced,Target_FPR_0.2%,DDoS,1152851,1152309,542,99.953,Attack Recall
+top15_l1_balanced,Target_FPR_0.2%,DoS,274173,274012,161,99.941,Attack Recall
+top15_l1_balanced,Target_FPR_0.2%,Mirai,89359,89276,83,99.907,Attack Recall
+top15_l1_balanced,Target_FPR_0.2%,Recon,23641,5460,18181,23.095,Attack Recall
+top15_l1_balanced,Target_FPR_0.2%,Spoofing,16596,11368,5228,68.498,Attack Recall
+top15_l1_balanced,Target_FPR_0.2%,Web,882,40,842,4.535,Attack Recall
+top15_l1_balanced,Target_FPR_0.1%,Benign,37104,37063,41,99.889,Benign Specificity (1 - FPR)
+top15_l1_balanced,Target_FPR_0.1%,BruteForce,466,32,434,6.867,Attack Recall
+top15_l1_balanced,Target_FPR_0.1%,DDoS,1152851,1152131,720,99.938,Attack Recall
+top15_l1_balanced,Target_FPR_0.1%,DoS,274173,273910,263,99.904,Attack Recall
+top15_l1_balanced,Target_FPR_0.1%,Mirai,89359,89249,110,99.877,Attack Recall
+top15_l1_balanced,Target_FPR_0.1%,Recon,23641,4899,18742,20.722,Attack Recall
+top15_l1_balanced,Target_FPR_0.1%,Spoofing,16596,10828,5768,65.245,Attack Recall
+top15_l1_balanced,Target_FPR_0.1%,Web,882,21,861,2.381,Attack Recall
+top10_l2_light,Target_FPR_0.2%,Benign,37104,37050,54,99.854,Benign Specificity (1 - FPR)
+top10_l2_light,Target_FPR_0.2%,BruteForce,466,24,442,5.15,Attack Recall
+top10_l2_light,Target_FPR_0.2%,DDoS,1152851,1151122,1729,99.85,Attack Recall
+top10_l2_light,Target_FPR_0.2%,DoS,274173,273423,750,99.726,Attack Recall
+top10_l2_light,Target_FPR_0.2%,Mirai,89359,89010,349,99.609,Attack Recall
+top10_l2_light,Target_FPR_0.2%,Recon,23641,4154,19487,17.571,Attack Recall
+top10_l2_light,Target_FPR_0.2%,Spoofing,16596,8963,7633,54.007,Attack Recall
+top10_l2_light,Target_FPR_0.2%,Web,882,21,861,2.381,Attack Recall
+top10_l2_light,Target_FPR_0.1%,Benign,37104,37066,38,99.898,Benign Specificity (1 - FPR)
+top10_l2_light,Target_FPR_0.1%,BruteForce,466,14,452,3.004,Attack Recall
+top10_l2_light,Target_FPR_0.1%,DDoS,1152851,1150242,2609,99.774,Attack Recall
+top10_l2_light,Target_FPR_0.1%,DoS,274173,273067,1106,99.597,Attack Recall
+top10_l2_light,Target_FPR_0.1%,Mirai,89359,88807,552,99.382,Attack Recall
+top10_l2_light,Target_FPR_0.1%,Recon,23641,3709,19932,15.689,Attack Recall
+top10_l2_light,Target_FPR_0.1%,Spoofing,16596,6389,10207,38.497,Attack Recall
+top10_l2_light,Target_FPR_0.1%,Web,882,15,867,1.701,Attack Recall

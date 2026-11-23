@@ -1,0 +1,94 @@
+{
+  "is_quick": false,
+  "checkpoints": {
+    "Top15": [
+      "HTTPS",
+      "AVG",
+      "IAT",
+      "Header_Length",
+      "ack_flag_number",
+      "Max",
+      "syn_flag_number",
+      "Time_To_Live",
+      "Min",
+      "psh_flag_number",
+      "rst_flag_number",
+      "fin_flag_number",
+      "Std",
+      "HTTP",
+      "ARP"
+    ],
+    "Top10": [
+      "HTTPS",
+      "AVG",
+      "IAT",
+      "Header_Length",
+      "ack_flag_number",
+      "Max",
+      "syn_flag_number",
+      "Time_To_Live",
+      "Min",
+      "psh_flag_number"
+    ]
+  },
+  "pruning_tiers": [
+    {
+      "tier": "L0_Baseline",
+      "n_estimators": 150,
+      "num_leaves": 63,
+      "max_depth": -1,
+      "learning_rate": 0.05
+    },
+    {
+      "tier": "L1_Balanced",
+      "n_estimators": 80,
+      "num_leaves": 31,
+      "max_depth": 7,
+      "learning_rate": 0.07
+    },
+    {
+      "tier": "L2_Light",
+      "n_estimators": 50,
+      "num_leaves": 15,
+      "max_depth": 6,
+      "learning_rate": 0.08
+    },
+    {
+      "tier": "L3_UltraLight",
+      "n_estimators": 30,
+      "num_leaves": 15,
+      "max_depth": 5,
+      "learning_rate": 0.1
+    },
+    {
+      "tier": "L4_Micro",
+      "n_estimators": 20,
+      "num_leaves": 7,
+      "max_depth": 4,
+      "learning_rate": 0.12
+    }
+  ],
+  "train_files": [
+    "Merged01.csv",
+    "Merged02.csv",
+    "Merged03.csv",
+    "Merged04.csv"
+  ],
+  "cal_file": "Merged07.csv",
+  "eval_file": "Merged08.csv",
+  "locked_test_files": [
+    "Merged09.csv",
+    "Merged10.csv"
+  ],
+  "hardware": {
+    "os": "Windows-10-10.0.19045-SP0",
+    "machine": "AMD64",
+    "logical_cpu_count": 8,
+    "total_ram_gb": 15.87,
+    "python_version": "3.11.4",
+    "numpy_version": "2.4.6",
+    "pandas_version": "3.1.1",
+    "sklearn_version": "1.9.1",
+    "lightgbm_version": "4.7.0"
+  }
+}

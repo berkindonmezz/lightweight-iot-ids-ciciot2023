@@ -1,0 +1,13 @@
+model,operating_point,test_file,n_samples,accuracy,attack_recall,fpr_%,fp,fn,roc_auc
+top15_l0_baseline,Target_FPR_0.2%,Merged09.csv,678882,0.98542,0.98513,0.233,37,9859,0.99806
+top15_l0_baseline,Target_FPR_0.2%,Merged10.csv,916190,0.98507,0.98478,0.259,55,13626,0.99801
+top15_l0_baseline,Target_FPR_0.1%,Merged09.csv,678882,0.98466,0.98433,0.132,21,10392,0.99806
+top15_l0_baseline,Target_FPR_0.1%,Merged10.csv,916190,0.98424,0.9839,0.156,33,14407,0.99801
+top15_l1_balanced,Target_FPR_0.2%,Merged09.csv,678882,0.98423,0.98389,0.176,28,10679,0.99773
+top15_l1_balanced,Target_FPR_0.2%,Merged10.csv,916190,0.98383,0.98349,0.175,37,14775,0.99768
+top15_l1_balanced,Target_FPR_0.1%,Merged09.csv,678882,0.98333,0.98296,0.101,16,11300,0.99773
+top15_l1_balanced,Target_FPR_0.1%,Merged10.csv,916190,0.98295,0.98257,0.118,25,15598,0.99768
+top10_l2_light,Target_FPR_0.2%,Merged09.csv,678882,0.98056,0.98013,0.132,21,13175,0.99711
+top10_l2_light,Target_FPR_0.2%,Merged10.csv,916190,0.98023,0.9798,0.156,33,18076,0.99702
+top10_l2_light,Target_FPR_0.1%,Merged09.csv,678882,0.97779,0.97728,0.094,15,15066,0.99711
+top10_l2_light,Target_FPR_0.1%,Merged10.csv,916190,0.97743,0.97692,0.109,23,20659,0.99702

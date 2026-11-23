@@ -1,0 +1,46 @@
+{
+  "is_quick": false,
+  "weight_schemes": {
+    "W0_Uniform": {
+      "Benign": 1.0,
+      "DDoS": 1.0,
+      "DoS": 1.0,
+      "Mirai": 1.0,
+      "Spoofing": 1.0,
+      "Recon": 1.0,
+      "BruteForce": 1.0,
+      "Web": 1.0
+    },
+    "W1_Mild_Boost": {
+      "Benign": 1.0,
+      "DDoS": 1.0,
+      "DoS": 1.0,
+      "Mirai": 1.0,
+      "Spoofing": 4.0,
+      "Recon": 5.0,
+      "BruteForce": 15.0,
+      "Web": 15.0
+    },
+    "W2_Strong_Boost": {
+      "Benign": 2.0,
+      "DDoS": 1.0,
+      "DoS": 1.0,
+      "Mirai": 1.0,
+      "Spoofing": 10.0,
+      "Recon": 15.0,
+      "BruteForce": 40.0,
+      "Web": 40.0
+    }
+  },
+  "hardware": {
+    "os": "Windows-10-10.0.19045-SP0",
+    "machine": "AMD64",
+    "logical_cpu_count": 8,
+    "total_ram_gb": 15.87,
+    "python_version": "3.11.4",
+    "numpy_version": "2.4.6",
+    "pandas_version": "3.1.1",
+    "sklearn_version": "1.9.1",
+    "lightgbm_version": "4.7.0"
+  }
+}

@@ -1,0 +1,4 @@
+model,role,n_features,onnx_size_kb,c_dll_size_kb,c_exe_size_kb,c_rss_peak_mb,c_lat_p50_us,c_lat_p95_us,c_lat_p99_us,c_single_core_pps,c_full_1_59m_sec,onnx_full_1_59m_sec
+top15_l0_baseline,Referans (Budanmamis),15,673.58,487.38,508.0,4.156,0.5,3.6,5.6,973687.1,1.417,5.476
+top15_l1_balanced,Ana Onerilen Model,15,174.97,191.58,212.19,3.871,0.2,0.8,1.3,4860739.8,0.351,2.673
+top10_l2_light,Ultra-Hafif Alternatif,10,52.63,101.7,123.31,3.75,0.1,0.3,0.5,16493484.7,0.111,1.391

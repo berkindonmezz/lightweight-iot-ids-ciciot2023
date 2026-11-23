@@ -1,0 +1,40 @@
+feature,status,category,nonzero_pct,train_nunique,bin_gain_norm,mc8_gain_norm,bin_perm_imp,mc8_perm_imp,combined_perm_score,live_traffic_note,description_tr
+Header_Length,KEEP,Akis/Baslik,84.1063,1260,0.003058,0.009673,0.164802,0.135142,0.299944,Kolay (IP/TCP/UDP header),Penceredeki paketlerin ortalama başlık uzunluğu (bayt).
+Protocol Type,KEEP,Protokol,99.9687,5,0.0,0.000476,0.0,0.045671,0.045671,Kolay (IP proto alani),"IP protokol numarası (TCP=6, UDP=17, ICMP=1 vb.)."
+Time_To_Live,KEEP,Akis/Baslik,99.9992,5780,0.006869,0.004417,0.018903,0.031673,0.050576,Kolay (IP TTL alani),Ortalama IP TTL değeri; kaynak işletim sistemi ve yönlendirme/spoofing izi taşır.
+Rate,KEEP,Akis/Hiz,99.9977,109581,0.705068,0.05969,0.015139,0.046544,0.061684,Kolay (paket_sayisi / sure),Penceredeki paket iletim hızı (paket/sn); DoS/DDoS ve tarama ayrımında temel sinyal.
+fin_flag_number,KEEP,TCP Bayrak,11.408,113,0.056219,0.014783,0.018736,0.041158,0.059894,Kolay (TCP flags),Penceredeki TCP FIN bayrağı oranı (bağlantı sonlandırma yoğunluğu).
+syn_flag_number,KEEP,TCP Bayrak,26.1221,168,0.000421,0.002508,0.057872,0.042501,0.100373,Kolay (TCP flags),Penceredeki TCP SYN bayrağı oranı (SYN flood ve port tarama göstergesi).
+rst_flag_number,KEEP,TCP Bayrak,12.4832,125,0.002449,0.02338,0.019597,0.025621,0.045218,Kolay (TCP flags),Penceredeki TCP RST bayrağı oranı (reddedilen/sıfırlanan bağlantılar).
+psh_flag_number,KEEP,TCP Bayrak,17.2079,155,0.011616,0.008979,0.011939,0.047886,0.059825,Kolay (TCP flags),Penceredeki TCP PSH bayrağı oranı (anlık veri itme / PSH-ACK flood).
+ack_flag_number,KEEP,TCP Bayrak,25.5931,215,0.012675,0.009792,0.113135,0.102327,0.215462,Kolay (TCP flags),Penceredeki TCP ACK bayrağı oranı (kurulu oturum / ACK flood davranışı).
+ece_flag_number,KEEP,TCP Bayrak,0.077,12,2e-06,1e-06,0.0,0.000129,0.000129,Kolay (TCP flags),TCP ECN-Echo tıkanıklık bayrağı oranı (pratikte çok nadir).
+cwr_flag_number,DROP_NEGLIGIBLE_CONTRIBUTION,TCP Bayrak,0.0349,8,0.0,0.0,0.0,0.0,0.0,Kolay (TCP flags),TCP Congestion Window Reduced bayrağı oranı (pratikte çok nadir).
+HTTP,KEEP,Uygulama/Port,7.7279,121,0.057519,0.002052,0.000355,0.016663,0.017017,Kolay (Port 80 kontrolu),Penceredeki HTTP trafiği oranı (port tabanlı uygulama göstergesi).
+HTTPS,KEEP,Uygulama/Port,14.3939,171,0.002183,0.00063,0.295967,0.068473,0.36444,Kolay (Port 443 kontrolu),Penceredeki HTTPS/TLS trafiği oranı (IoT cihaz normal iletişimi ile yüksek ilişkili).
+DNS,KEEP,Uygulama/Port,6.0844,112,1.2e-05,0.001259,0.000174,0.000186,0.00036,Kolay (Port 53 kontrolu),Penceredeki DNS trafiği oranı (DNS spoofing / normal ad çözümleme).
+Telnet,DROP_NEGLIGIBLE_CONTRIBUTION,Uygulama/Port,0.0766,6,0.0,0.0,0.0,0.0,0.0,Kolay (Port 23 kontrolu),"Penceredeki Telnet trafiği oranı (Mirai/brute-force potansiyeli, veri setinde nadir)."
+SMTP,DROP_NEGLIGIBLE_CONTRIBUTION,Uygulama/Port,0.0749,5,0.0,0.0,0.0,0.0,0.0,Kolay (Port 25 kontrolu),Penceredeki SMTP e-posta trafiği oranı.
+SSH,KEEP,Uygulama/Port,0.3093,16,2e-06,1e-06,0.000177,0.004086,0.004262,Kolay (Port 22 kontrolu),Penceredeki SSH trafiği oranı (Dictionary Brute Force için kritik).
+IRC,DROP_NEGLIGIBLE_CONTRIBUTION,Uygulama/Port,0.0896,6,0.0,0.0,0.0,0.0,0.0,Kolay (Port 6667 kontrolu),Penceredeki IRC trafiği oranı.
+TCP,KEEP,Protokol,65.0332,217,5e-06,0.000231,0.000162,0.050293,0.050455,Kolay (L4 protokol),Penceredeki TCP paket oranı.
+UDP,KEEP,Protokol,31.2489,212,1.1e-05,0.00325,0.001051,0.057007,0.058057,Kolay (L4 protokol),Penceredeki UDP paket oranı.
+DHCP,KEEP,Uygulama/Port,0.5504,26,1e-06,1e-06,9.9e-05,0.000298,0.000397,Kolay (Port 67/68),Penceredeki DHCP trafiği oranı.
+ARP,KEEP,Protokol,9.8144,138,2.3e-05,3.5e-05,0.006144,0.005943,0.012087,Kolay (Ethernet type),Penceredeki ARP çerçevesi oranı (MITM-ARP Spoofing ve keşif için kritik).
+ICMP,KEEP,Protokol,20.9752,176,5e-06,0.012718,-0.001137,0.036258,0.036258,Kolay (IP proto=1),Penceredeki ICMP paket oranı (ICMP flood / ping sweep).
+IGMP,DROP_NEGLIGIBLE_CONTRIBUTION,Protokol,0.0629,7,0.0,0.0,0.0,0.0,0.0,Kolay (IP proto=2),Penceredeki IGMP multicast kontrol paketi oranı.
+IPv,DROP_EXACT_DUPLICATE,Kopya/Kolineer,99.9992,138,0.0,0.0,0.0,0.0,0.0,Gereksiz (1 - ARP),IPv4 çerçeve oranı; ARP ile |r|=1.0 tam doğrusal bağımlı (kopya).
+LLC,DROP_EXACT_DUPLICATE,Kopya/Kolineer,99.9992,138,0.0,0.0,0.0,0.0,0.0,Gereksiz (1 - ARP),LLC katmanı oranı; ARP ve IPv ile |r|=1.0 tam doğrusal bağımlı (kopya).
+Min,KEEP,Paket Boyutu,100.0,431,0.000121,0.008997,0.005991,0.08257,0.088561,Kolay (min paket boyutu),Penceredeki en küçük paket boyutu (bayt).
+Max,KEEP,Paket Boyutu,100.0,2319,0.003142,0.070598,0.041228,0.163645,0.204873,Kolay (max paket boyutu),Penceredeki en büyük paket boyutu (bayt).
+AVG,KEEP,Paket Boyutu,100.0,26654,0.000528,0.002381,0.216415,0.18481,0.401225,Kolay (ortalama boyut),Penceredeki ortalama paket boyutu (bayt).
+Std,KEEP,Paket Boyutu,26.2725,75003,0.000555,0.000934,0.014049,0.13587,0.149919,Kolay (boyut std),Penceredeki paket boyutlarının standart sapması (flood trafiğinde ~0'a iner).
+Tot size,DROP_EXACT_DUPLICATE,Kopya/Kolineer,100.0,26654,0.0,0.0,0.0,0.0,0.0,Gereksiz (AVG ile ayni),AVG sütunu ile birebir aynı değerleri taşır (tam kopya).
+IAT,KEEP,Akis/Zaman,99.9993,110404,0.137486,0.761396,0.081424,0.118828,0.200252,Kolay (paketler arasi sure),Paketler arası ortalama varış süresi (Inter-Arrival Time); en güçlü davranışsal sinyal.
+Variance,KEEP,Paket Boyutu,26.2725,79756,2.9e-05,0.00182,0.00126,0.133953,0.135214,Kısmen Kopya (Std^2),Paket boyutu varyansı (Std'nin karesi); canlı trafikte ikisinden biri yeterlidir.
+Number,DROP_WINDOW_ARTIFACT,Pencere Artefakti,100.0,100,0.0,0.0,0.0,0.0,0.0,UYGUN DEGIL (Artefakt),Penceredeki paket sayısı; veri setinde 10 vs 100 pencere kuralını sızdırır.
+Tot sum,DROP_WINDOW_ARTIFACT,Pencere Artefakti,100.0,26101,0.0,0.0,0.0,0.0,0.0,UYGUN DEGIL (Artefakt),Penceredeki toplam bayt (Number * AVG); pencere boyutuna bağımlı.
+ack_count,DROP_WINDOW_ARTIFACT,Pencere Artefakti,25.5931,101,0.0,0.0,0.0,0.0,0.0,UYGUN DEGIL (Artefakt),Penceredeki toplam ACK sayısı; pencere boyutuna (10 vs 100) bağımlı.
+syn_count,DROP_WINDOW_ARTIFACT,Pencere Artefakti,26.1221,101,0.0,0.0,0.0,0.0,0.0,UYGUN DEGIL (Artefakt),Penceredeki toplam SYN sayısı; pencere boyutuna (10 vs 100) bağımlı.
+fin_count,DROP_WINDOW_ARTIFACT,Pencere Artefakti,11.408,95,0.0,0.0,0.0,0.0,0.0,UYGUN DEGIL (Artefakt),Penceredeki toplam FIN sayısı; pencere boyutuna (10 vs 100) bağımlı.
+rst_count,DROP_WINDOW_ARTIFACT,Pencere Artefakti,12.4832,101,0.0,0.0,0.0,0.0,0.0,UYGUN DEGIL (Artefakt),Penceredeki toplam RST sayısı; pencere boyutuna (10 vs 100) bağımlı.

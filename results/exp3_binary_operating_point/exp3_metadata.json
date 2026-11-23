@@ -1,0 +1,53 @@
+{
+  "is_quick": false,
+  "features_24": [
+    "Header_Length",
+    "Protocol Type",
+    "Time_To_Live",
+    "Rate",
+    "fin_flag_number",
+    "syn_flag_number",
+    "rst_flag_number",
+    "psh_flag_number",
+    "ack_flag_number",
+    "ece_flag_number",
+    "HTTP",
+    "HTTPS",
+    "DNS",
+    "SSH",
+    "TCP",
+    "UDP",
+    "DHCP",
+    "ARP",
+    "ICMP",
+    "Min",
+    "Max",
+    "AVG",
+    "Std",
+    "IAT"
+  ],
+  "train_files": [
+    "Merged01.csv",
+    "Merged02.csv",
+    "Merged03.csv",
+    "Merged04.csv"
+  ],
+  "cal_file": "Merged07.csv",
+  "eval_file": "Merged08.csv",
+  "locked_test_files": [
+    "Merged09.csv",
+    "Merged10.csv"
+  ],
+  "best_model_at_fpr_0_5pct": "LGBM_T2_100pctBenign_Balanced",
+  "hardware": {
+    "os": "Windows-10-10.0.19045-SP0",
+    "machine": "AMD64",
+    "logical_cpu_count": 8,
+    "total_ram_gb": 15.87,
+    "python_version": "3.11.4",
+    "numpy_version": "2.4.6",
+    "pandas_version": "3.1.1",
+    "sklearn_version": "1.9.1",
+    "lightgbm_version": "4.7.0"
+  }
+}

@@ -1,0 +1,33 @@
+operating_point,category,support,correct_or_detected,fp_or_missed,rate_pct,metric_note
+Target_FPR_1.0%,Benign,16467,16298,169,98.97,Benign Specificity (1 - FPR)
+Target_FPR_1.0%,BruteForce,220,65,155,29.55,Attack Recall
+Target_FPR_1.0%,DDoS,514947,514905,42,99.99,Attack Recall
+Target_FPR_1.0%,DoS,122605,122593,12,99.99,Attack Recall
+Target_FPR_1.0%,Mirai,40069,40065,4,99.99,Attack Recall
+Target_FPR_1.0%,Recon,10260,3871,6389,37.73,Attack Recall
+Target_FPR_1.0%,Spoofing,7295,5918,1377,81.12,Attack Recall
+Target_FPR_1.0%,Web,357,81,276,22.69,Attack Recall
+Target_FPR_0.5%,Benign,16467,16380,87,99.47,Benign Specificity (1 - FPR)
+Target_FPR_0.5%,BruteForce,220,61,159,27.73,Attack Recall
+Target_FPR_0.5%,DDoS,514947,514889,58,99.99,Attack Recall
+Target_FPR_0.5%,DoS,122605,122588,17,99.99,Attack Recall
+Target_FPR_0.5%,Mirai,40069,40063,6,99.99,Attack Recall
+Target_FPR_0.5%,Recon,10260,3473,6787,33.85,Attack Recall
+Target_FPR_0.5%,Spoofing,7295,5586,1709,76.57,Attack Recall
+Target_FPR_0.5%,Web,357,61,296,17.09,Attack Recall
+Target_FPR_0.2%,Benign,16467,16431,36,99.78,Benign Specificity (1 - FPR)
+Target_FPR_0.2%,BruteForce,220,54,166,24.55,Attack Recall
+Target_FPR_0.2%,DDoS,514947,514844,103,99.98,Attack Recall
+Target_FPR_0.2%,DoS,122605,122573,32,99.97,Attack Recall
+Target_FPR_0.2%,Mirai,40069,40060,9,99.98,Attack Recall
+Target_FPR_0.2%,Recon,10260,2875,7385,28.02,Attack Recall
+Target_FPR_0.2%,Spoofing,7295,5342,1953,73.23,Attack Recall
+Target_FPR_0.2%,Web,357,36,321,10.08,Attack Recall
+Target_FPR_0.1%,Benign,16467,16445,22,99.87,Benign Specificity (1 - FPR)
+Target_FPR_0.1%,BruteForce,220,48,172,21.82,Attack Recall
+Target_FPR_0.1%,DDoS,514947,514811,136,99.97,Attack Recall
+Target_FPR_0.1%,DoS,122605,122566,39,99.97,Attack Recall
+Target_FPR_0.1%,Mirai,40069,40053,16,99.96,Attack Recall
+Target_FPR_0.1%,Recon,10260,2581,7679,25.16,Attack Recall
+Target_FPR_0.1%,Spoofing,7295,5113,2182,70.09,Attack Recall
+Target_FPR_0.1%,Web,357,20,337,5.6,Attack Recall

@@ -1,0 +1,73 @@
+{
+  "tag": "top15_l1_balanced",
+  "role": "Ana Onerilen Model",
+  "checkpoint": "Top15",
+  "tier": "L1_Balanced",
+  "features": [
+    "HTTPS",
+    "AVG",
+    "IAT",
+    "Header_Length",
+    "ack_flag_number",
+    "Max",
+    "syn_flag_number",
+    "Time_To_Live",
+    "Min",
+    "psh_flag_number",
+    "rst_flag_number",
+    "fin_flag_number",
+    "Std",
+    "HTTP",
+    "ARP"
+  ],
+  "medians_float32": [
+    0.0,
+    60.0,
+    4.451036511454731e-05,
+    20.0,
+    0.0,
+    60.0,
+    0.0,
+    64.0,
+    60.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "hyperparams": {
+    "n_estimators": 80,
+    "num_leaves": 31,
+    "max_depth": 7,
+    "learning_rate": 0.07
+  },
+  "thresholds_locked_from_m07": {
+    "target_fpr_0.5%": 0.718811,
+    "target_fpr_0.2%": 0.857909,
+    "target_fpr_0.1%": 0.915133
+  },
+  "artifacts": {
+    "onnx": {
+      "file": "top15_l1_balanced.onnx",
+      "size_kb": 174.97,
+      "sha256": "4d53c556895cb3e41cc611bc1cb790a6d3fead7535d5f4c0c93c23b3a8975803"
+    },
+    "c_source": {
+      "file": "top15_l1_balanced_model.c",
+      "size_kb": 422.81,
+      "sha256": "f145d1fd9e6bd7d4a2f8c94281cd9d6c903dfb1b8939b702f22dff5539c2b034"
+    },
+    "c_dll": {
+      "file": "top15_l1_balanced.dll",
+      "size_kb": 191.58,
+      "sha256": "14887dbdc59ddd2502267bc803596ba741986f1b8d48a5077247b1909bca7d43"
+    },
+    "c_bench_exe": {
+      "file": "top15_l1_balanced_bench.exe",
+      "size_kb": 212.19,
+      "sha256": "0e01ea5fe594027f5c50d5d875e0466810aacae3842bf3948c9d5697f63863ce"
+    }
+  }
+}

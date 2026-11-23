@@ -1,0 +1,55 @@
+{
+  "is_quick": false,
+  "train_files": [
+    "Merged01.csv",
+    "Merged02.csv",
+    "Merged03.csv",
+    "Merged04.csv"
+  ],
+  "train_frac": 0.25,
+  "train_rows": 708703,
+  "val_files": [
+    "Merged07.csv"
+  ],
+  "val_rows": 702212,
+  "locked_test_files": [
+    "Merged09.csv",
+    "Merged10.csv"
+  ],
+  "collinearity_check": {
+    "avg_equals_tot_size": true,
+    "near_duplicate_pairs_ge_0999": [
+      {
+        "col_a": "ARP",
+        "col_b": "IPv",
+        "abs_corr": 1.0
+      },
+      {
+        "col_a": "ARP",
+        "col_b": "LLC",
+        "abs_corr": 1.0
+      },
+      {
+        "col_a": "IPv",
+        "col_b": "LLC",
+        "abs_corr": 1.0
+      },
+      {
+        "col_a": "AVG",
+        "col_b": "Tot size",
+        "abs_corr": 1.0
+      }
+    ]
+  },
+  "hardware": {
+    "os": "Windows-10-10.0.19045-SP0",
+    "machine": "AMD64",
+    "logical_cpu_count": 8,
+    "total_ram_gb": 15.87,
+    "python_version": "3.11.4",
+    "numpy_version": "2.4.6",
+    "pandas_version": "3.1.1",
+    "sklearn_version": "1.9.1",
+    "lightgbm_version": "4.7.0"
+  }
+}
