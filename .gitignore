@@ -31,3 +31,5 @@ models/final_edge/*.so
 Thumbs.db
 .vscode/
 .idea/
+
+deploy/edge_docker/edge_benchmark_sample.npz

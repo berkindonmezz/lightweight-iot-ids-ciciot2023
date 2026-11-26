@@ -1,0 +1,4 @@
+profile,cpu_limit,ram_limit_mb,model,role,n_features,onnx_size_kb,linux_so_kb,linux_bin_kb,onnx_peak_ram_mb,c_peak_ram_mb,ram_ratio_onnx_vs_c_x,onnx_p50_us,onnx_p95_us,onnx_p99_us,c_p50_us,c_p95_us,c_p99_us,speedup_c_vs_onnx_x,onnx_pps,c_pps,c_vs_onnx_agree_%
+0.25cpu_128mb,0.25,128.0,top15_l0_baseline,Referans (Budanmamis),15,673.58,431.31,436.8,64.492,2.574,25.1,39.05,78.2,103.24,0.9,7.5,26.8,43.4,46673.6,91325.6,100.0
+0.25cpu_128mb,0.25,128.0,top15_l1_balanced,Ana Onerilen Model,15,174.97,156.34,157.82,58.023,2.266,25.6,31.15,73.61,103.22,0.3,1.9,3.7,103.8,102627.8,505394.6,100.0
+0.25cpu_128mb,0.25,128.0,top10_l2_light,Ultra-Hafif Alternatif,10,52.63,71.12,72.6,56.723,2.141,26.5,27.7,67.13,114.22,0.2,0.6,1.1,138.5,748598.2,7312507.8,100.0

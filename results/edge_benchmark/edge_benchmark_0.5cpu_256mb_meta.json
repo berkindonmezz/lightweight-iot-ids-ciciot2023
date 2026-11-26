@@ -1,0 +1,13 @@
+{
+  "evaluated_at_utc": "2026-11-26T17:58:03.521885+00:00",
+  "profile": "0.5cpu_256mb",
+  "container_env": {
+    "os": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.41",
+    "arch": "x86_64",
+    "python": "3.11.18",
+    "cpu_limit_cores": 0.5,
+    "ram_limit_mb": 256.0,
+    "gcc_version": "gcc (Debian 14.2.0-19) 14.2.0"
+  },
+  "n_sample_flows": 10000
+}

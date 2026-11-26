@@ -1,0 +1,17 @@
+.git/
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/
+docs/
+results/
+src/
+app/
+models/exp*/
+models/final_edge/*.exe
+models/final_edge/*.dll
+*.csv
+*.joblib
+*.pcap
+*.pcapng
